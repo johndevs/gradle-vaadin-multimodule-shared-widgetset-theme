@@ -1,0 +1,6 @@
+rootProject.name = 'myapp'
+include 'theme-module'
+include 'widgetset-module'
+include 'app1'
+include 'app2'
+

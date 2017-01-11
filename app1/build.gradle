@@ -1,0 +1,10 @@
+apply plugin: 'fi.jasoft.plugin.vaadin'
+
+// Disable widgetset compilation as widgetset
+// is served from widgetset-module
+project.tasks.vaadinCompile.enabled = false
+
+dependencies {
+    compile project(':theme-module')
+    compile project(':widgetset-module')
+}

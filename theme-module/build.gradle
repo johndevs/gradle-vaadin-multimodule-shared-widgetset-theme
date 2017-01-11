@@ -1,0 +1,10 @@
+apply plugin: 'fi.jasoft.plugin.vaadin'
+
+vaadin.addon {
+    title 'app-theme'
+    version '1'
+}
+
+// Package theme into jar for use by apps
+jar.dependsOn 'vaadinThemeCompile'
+jar.from 'src/main/webapp'

@@ -1,0 +1,14 @@
+apply plugin: 'fi.jasoft.plugin.vaadin'
+
+vaadinCompile {
+    widgetset 'com.example.MyWidgetset'
+}
+
+vaadin.addon {
+    title 'app-widgetset'
+    version '1'
+}
+
+// Package widgetset into jar for use by apps
+jar.dependsOn 'vaadinCompile'
+jar.from 'src/main/webapp'
