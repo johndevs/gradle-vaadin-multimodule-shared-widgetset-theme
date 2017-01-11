@@ -19,7 +19,7 @@ Consumes the widgetset and theme
 
 ## Testing the project setup
 
-To try out the project by running first the first app (./gradlew :app1:vaadinRun) and then the second 
-app (./gradlew :app2:vaadinRun) and you will notice that when you run the first app everything is compiled but after that 
+To try out the project by running first the first app (``./gradlew :app1:vaadinRun``) and then the second 
+app (``./gradlew :app2:vaadinRun``) and you will notice that when you run the first app everything is compiled but after that 
 when you either again run the first or the second app then no widgetset or theme is no longer compiled as they have not 
 changed.
